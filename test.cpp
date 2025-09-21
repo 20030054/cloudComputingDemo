@@ -1,4 +1,5 @@
 #include <iostream>
+<<<<<<< HEAD
 #include <cmath>  // for pow function
 using namespace std;
 
@@ -71,5 +72,26 @@ int main() {
     int int2 = static_cast<int>(num2);
     cout << "Modulus: " << modulus(int1, int2) << endl;
 
+=======
+using namespace std;
+
+int main() {
+    // Declare two variables to store the numbers
+    double num1, num2, sum;
+
+    // Ask the user to input two numbers
+    cout << "Enter the first number: ";
+    cin >> num1;
+
+    cout << "Enter the second number: ";
+    cin >> num2;
+
+    // Calculate the sum of the two numbers
+    sum = num1 + num2;
+
+    // Output the result
+    cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << endl;
+    
+>>>>>>> b71305a86d4baa8f59225c7d750c67bff40976fc
     return 0;
 }
