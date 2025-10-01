@@ -17,6 +17,6 @@ int main() {
 
     // Output the result
     cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << endl;
-    cout<<"Hello";
+    
     return 0;
 }
